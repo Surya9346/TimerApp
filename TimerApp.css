@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.timer {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 7px;
+    font-size: 1rem;
+}
+
+.start {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+
+.start:hover {
+    opacity: 0.6;
+}
+
+.stop {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: darkred;
+    color: white;
+}
+
+.stop:hover {
+    opacity: 0.6;
+}
+
+.reset {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: grey;
+    color: white;
+}
+
+.reset:hover {
+    opacity: 0.6;
+}
+
+.modes {
+    margin-top: 7px;
+    font-size: 1rem;
+}
+
+.short_break {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: skyblue;
+    color: white;
+}
+
+.short_break:hover {
+    opacity: 0.6;
+}
+
+.long_break {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: purple;
+    color: white;
+}
+
+.long_break:hover {
+    opacity: 0.6;
+}
+
+@media (width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .timer {
+        font-size: 5rem;
+    }
+
+    .buttons {
+        font-size: 2rem;
+    }
+
+    .modes {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 55%;
+    }
+}

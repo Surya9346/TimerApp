@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Pomodoro Timer</h1>
+        <div class="timer" id="timer">25:00</div>
+        <div class="buttons">
+            <button class="start" onclick="startTimer()">START</button>
+            <button class="stop" onclick="stopTimer()">STOP</button>
+            <button class="reset" onclick="resetTimer()">RESET</button>
+        </div>
+        <div class="modes">
+            <button class="short_break" onclick="setMode(5)">SHORT BREAK</button>
+            <button class="long_break" onclick="setMode(15)">LONG BREAK</button>
+        </div>
+    </div>
+    <audio id="alarm" src="alarm.mp3"></audio>
+</body>
+
+</html>
